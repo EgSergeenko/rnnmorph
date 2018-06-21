@@ -1,5 +1,12 @@
 from setuptools import find_packages, setup
 
+try:
+    import tensorflow as tf
+    device_name = tf.test.gpu_device_name()
+    is_gpu = (device_name.find(':GPU:') >= 0)
+except:
+    is_gpu = False
+
 setup(
     name='rnnmorph',
     packages=find_packages(),
@@ -18,8 +25,8 @@ setup(
         'numpy>=1.11.3',
         'scipy>=0.18.1',
         'scikit-learn>=0.18.1',
-        'tensorflow>=1.1.0',
         'keras>=2.0.6',
+        ('tensorflow-gpu>=1.1.0' if is_gpu else 'tensorflow>=1.1.0'),
         'pymorphy2>=0.8',
         'russian-tagsets==0.6',
         'tqdm>=4.14.0',
