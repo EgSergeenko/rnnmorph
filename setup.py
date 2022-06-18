@@ -22,16 +22,16 @@ setup(
         'rnnmorph': ['models/ru/*', 'models/en/*']
     },
     install_requires=[
-        'numpy>=1.11.3',
-        'scipy>=0.18.1',
-        'scikit-learn>=0.18.1',
-        'keras>=2.0.6',
-        ('tensorflow-gpu>=1.1.0' if is_gpu else 'tensorflow>=1.1.0'),
-        'pymorphy2>=0.8',
+        'numpy==1.11.3',
+        'scipy==0.18.1',
+        'scikit-learn==0.18.1',
+        'keras==2.0.6',
+        '~/Downloads/tensorflow-1.1.0-cp27-none-linux_x86_64.whl',
+        'pymorphy2==0.8',
         'russian-tagsets==0.6',
-        'tqdm>=4.14.0',
-        'jsonpickle>=0.9.4',
-        'nltk>=3.2.5'
+        'tqdm==4.14.0',
+        'jsonpickle==0.9.4',
+        'nltk==3.2.5'
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
