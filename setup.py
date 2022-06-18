@@ -22,7 +22,7 @@ setup(
         'rnnmorph': ['models/ru/*', 'models/en/*']
     },
     install_requires=[
-        'numpy=1.11.3',
+        'numpy>=1.11.3',
         'scipy>=0.18.1',
         'scikit-learn>=0.18.1',
         'pymorphy2>=0.8',
