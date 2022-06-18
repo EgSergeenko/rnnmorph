@@ -1,12 +1,10 @@
-numpy >= 1.12.1
-scipy >= 0.19.0
-scikit-learn >= 0.18.1
-tensorflow == 2.5.0
-keras >= 2.1.4
-h5py >= 2.7.0
+numpy==1.12.1
+scipy==0.19.0
+scikit-learn==0.18.1
+~/Downloads/tensorflow-1.1.0-cp27-none-linux_x86_64.whl
 
-pymorphy2 >= 0.8
-russian-tagsets == 0.6
-tqdm >= 4.14.0
-jsonpickle >= 0.9.4
-nltk>=3.2.5
+pymorphy2==0.8
+russian-tagsets==0.6
+tqdm==4.14.0
+jsonpickle==0.9.4
+nltk==3.2.5
