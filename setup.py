@@ -26,7 +26,7 @@ setup(
         'scipy==0.18.1',
         'scikit-learn==0.18.1',
         'keras==2.0.6',
-        '~/Downloads/tensorflow-1.1.0-cp27-none-linux_x86_64.whl',
+        # '~/Downloads/tensorflow-1.1.0-cp27-none-linux_x86_64.whl',
         'pymorphy2==0.8',
         'russian-tagsets==0.6',
         'tqdm==4.14.0',
